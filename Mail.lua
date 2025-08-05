@@ -27,7 +27,7 @@ do
 	function GetCursorItem()
 		return cursorItem
 	end
-	function SetCursorItem(item)D
+	function SetCursorItem(item)
 		f:SetScript('OnUpdate', function()
 			cursorItem = item
 			f:SetScript('OnUpdate', nil)
