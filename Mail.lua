@@ -27,7 +27,7 @@ do
 	function GetCursorItem()
 		return cursorItem
 	end
-	function SetCursorItem(item)
+	function SetCursorItem(item)D
 		f:SetScript('OnUpdate', function()
 			cursorItem = item
 			f:SetScript('OnUpdate', nil)
@@ -225,7 +225,7 @@ do
 		GetInboxText(i)
 		TakeInboxMoney(i)
 		TakeInboxItem(i)
-		DeleteInboxItem(i)
+		--DeleteInboxItem(i)
 	end
 end
 
